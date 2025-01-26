@@ -1,0 +1,245 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(219, 206, 235);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 12px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar{
+    position: relative;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: cursive;
+}
+
+
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;    
+}
+
+
+#navbar ul li a:hover{
+    color: blue;
+    background-color: white;  
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../images/bg1.png') no-repeat center center/cover;
+    height: 76.5%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89; 
+    margin-top: -200px;  
+}
+/* Services Section */
+
+/* #services{
+    margin:34px;
+    display:flex;
+}
+
+#secondary.box{
+    border:2px solid brown;
+}
+
+#secondary.box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+} */
+/* utility classes */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+ p{
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+}
+
+/* .h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+ } */
+
+
+.btn{
+    margin:20px;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: white;
+    font-size: 1.3rem;
+    border-radius: 0px;
+    cursor: pointer;
+    height: 55px;
+    width: 1000px;
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+.firstcontainer{
+    border:2px solid white;
+    position:absolute;
+    top:510px;
+    display:flex;
+    height:43%;
+    width:100%;
+}
+.imgcontent{
+    position: absolute;
+    top: 150px;
+    left: 345px;
+    color: black;
+}
+
+.imagesdiv{
+    height:270px;
+    width:270px;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.secondcontainer1{
+    height:300px;
+    width:30%;
+    background-color:beige;
+    margin-left:35px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.imgcontent1{
+    position: absolute;
+    top: 150px;
+    left: 805px;
+    color: black;
+}
+.imgcontent2{
+    position: absolute;
+    top: 150px;
+    left: 1310px;
+    color: black;
+}
+.our{
+    position:absolute;
+    top:725px;
+    left:640px;
+    font-family:cursive;
+    font-size:40px;
+}
+
+/* Client Section */
+
+.bigbox{
+    border:2px solid white;
+    position:absolute;
+    top:1180px;
+    display:flex;
+    height:15%;
+    width:100%;
+    background-color:white;
+}
+.smallbox{
+    height:250px;
+    width:20%;
+    background-color:white;
+    margin-left:65px;
+    margin-top:1px;
+    border-radius: 15px;
+}
+.imgdiv{
+    height:200px;
+    width:200px;
+    margin-top:40px;
+    margin-left:40px;
+    
+}
+.clients{
+    position:absolute;
+    top:1125px;
+    left:640px;
+    font-family:cursive;
+    font-size:40px;
+    
+}
+
+/* Copyright */
+
+footer{
+    background: black;
+    color:white;
+    padding: 9px 20px;
+    margin-top:1200px;
+    
+}
+

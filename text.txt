@@ -1,0 +1,8 @@
+ color: #6A9C89;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+
+
+
+        color: #B17457;// brown 
